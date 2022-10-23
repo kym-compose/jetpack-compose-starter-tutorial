@@ -1,4 +1,4 @@
-### Jetpack Compose
+# Jetpack Compose
 
 - A Modern toolkit for building native Android UI.
 - Build a UI component with `declarative` functions.
@@ -38,7 +38,7 @@ fun Greeting(name: String) {
 ```kotlin
 // ComponentActivity.kt
 public fun ComponentActivity.setContent(
-	parent: CompositionContext? = null,
+    parent: CompositionContext? = null,
     content: @Composable () -> Unit
 ) {
     ...
